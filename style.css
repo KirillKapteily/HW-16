@@ -1,0 +1,74 @@
+body {
+background-image: url("Grass.png");
+    background-position: bottom;
+    background-repeat:repeat-x ; 
+    background-size: 400px;
+    height: 100vh;
+    
+}
+
+.bg-box {
+     background-image: url("https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center;
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    
+}
+
+.bg-box::before,
+.bg-box::after{
+  content: "";
+  width: 1420px;
+  height: 110px;
+  background-size: contain;
+}
+
+.bg-box::after{
+  background-image: url(lamp.png);
+  background-size: 100px;
+  background-repeat: repeat;
+}
+
+.bg-box::after{
+  display: flex;
+  background-size: 70px;
+}
+
+body::before,
+body::after{
+  content: "";
+  /* width: 1420px; */
+  height: 500px;
+  background-size: 10px;
+}
+
+body::after{
+  background-image: url(https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png);
+  background-size: 100px;
+  background-repeat: repeat-y;
+}
+
+body::after{
+  display: flex;
+  background-position: right;
+  background-color: var(--our-command-substrate);
+  background-size: 70px;
+}
+html{
+    
+    background-color: darkgreen;
+    background-image: url("e.bmp");
+    background-size: 40px;
+    background-repeat: repeat-y;
+    
+}
+
+/* div{
+    background-image: url("https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png");
+    background-position: right;
+} */
+
+
